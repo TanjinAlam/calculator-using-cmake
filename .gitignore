@@ -1,1 +1,5 @@
-build
+# Ignore all files in the build directory
+/build/*
+
+# Except this .gitignore file in the root and the build directory itself
+!/build/
